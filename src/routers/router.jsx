@@ -10,12 +10,12 @@ import Register from "../components/Register.jsx";
 import CartPage from "../pages/Books/CartPage.jsx";
 import SingleBook from "../pages/Books/SingleBook.jsx";
 import CheckoutPage from "../pages/Books/CheckoutPage.jsx";
-import Privateroute from "./Privateroute.jsx";
 import OrderPage from "../pages/Books/OrderPage.jsx";
 import AdminRoute from "./AdminRoute.jsx";
 import AdminLogin from "../components/AdminLogin.jsx";
 import DashboardLayout from "../pages/dashboard/DashboardLayout.jsx";
 import Dashboard from "../pages/dashboard/Dashboard.jsx";
+import Privateroute from "./Privateroute.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
